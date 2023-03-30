@@ -42,4 +42,7 @@ p{
     background-color: #eee;
     margin: 15%;
     padding: 2rem;
+    border: 1px solid #777;
+    text-align: center;
+    animation: slide ease .8s;
 }
