@@ -24,6 +24,29 @@ p{
     line-height: 1.5;
 }
 
+header{
+    text-align: center;
+    color: white;
+    padding: 3rem;
+}
+
+header h1{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+header h1 span{
+    font-weight: 700;
+}
+
+section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+
 .modal{
     /* display: none; */
     position: fixed;
