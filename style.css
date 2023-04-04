@@ -58,6 +58,10 @@ form button{
     font-weight: 700;
 }
 
+.form button:hover{
+    background-color: tomato;
+}
+
 .modal{
     /* display: none; */
     position: fixed;
