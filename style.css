@@ -84,3 +84,14 @@ form button{
     text-align: center;
     animation: slide ease .8s;
 }
+
+@keyframes slide {
+    from{
+        transform: translateY(-30rem);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+    
+}
