@@ -56,14 +56,15 @@ form button{
     color: #fff; 
     font-size: 1.4rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
-.form button:hover{
+form button:hover{
     background-color: tomato;
 }
 
 .modal{
-    /* display: none; */
+    display: none;
     position: fixed;
     left: 0;
     top: 0;
@@ -75,6 +76,7 @@ form button{
 }
 
 .modal-content{
+    position: relative;
     width: 80%;
     max-width: 60rem;
     background-color: #eee;
