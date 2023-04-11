@@ -88,6 +88,7 @@ form button:hover{
     border: 1px solid #777;
     text-align: center;
     animation: slide ease .8s;
+    border-radius: 5px;
 }
 
 @keyframes slide {
